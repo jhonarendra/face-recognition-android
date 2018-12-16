@@ -1,4 +1,4 @@
-package cultoftheunicorn.marvel;
+package cultoftheunicorn.jhon;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import org.opencv.cultoftheunicorn.marvel.R;
+import org.opencv.comvis.facerecog.R;
 
 import java.util.List;
 

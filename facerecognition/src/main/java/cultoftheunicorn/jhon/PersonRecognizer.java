@@ -1,4 +1,4 @@
-package cultoftheunicorn.marvel;
+package cultoftheunicorn.jhon;
 
 import static  com.googlecode.javacv.cpp.opencv_highgui.*;
 import static  com.googlecode.javacv.cpp.opencv_core.*;

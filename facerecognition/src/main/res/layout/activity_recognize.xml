@@ -10,9 +10,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="org.opencv.cultoftheunicorn.marvel.cultoftheunicorn.marvel.Training">
+        tools:context="org.opencv.comvis.facerecog.cultoftheunicorn.marvel.Training">
 
-        <cultoftheunicorn.marvel.Tutorial3View
+        <cultoftheunicorn.jhon.Tutorial3View
             android:id="@+id/tutorial3_activity_java_surface_view"
             android:layout_width="325dp"
             android:layout_height="250dp"
@@ -60,21 +60,8 @@
             android:layout_marginLeft="55dp"
             android:layout_marginStart="55dp"
             android:text="@string/results"
-            android:textColor="@color/lightBlack"
             android:textStyle="bold"
             android:layout_alignTop="@+id/tutorial3_activity_java_surface_view" />
-
-        <Button
-            android:id="@+id/submit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/results"
-            android:layout_marginEnd="18dp"
-            android:layout_marginRight="18dp"
-            android:textAllCaps="false"
-            android:text="Submit" />
 
     </RelativeLayout>
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Marvel</string>
+    <string name="app_name">Face Recognition Project</string>
     <string name="BLANK"></string>
     <string name="STrain">Train</string>
     <string name="SViewAll">View all faces</string>
     <string name="SSearch">Search</string>
     <string name="SDelete">Delete</string>
-    <string name="SEnter">Enter face name, then pres Rec</string>
+    <string name="SEnter">Masukkan nama</string>
     <string name="SStopTrain">Stop Training</string>
     <string name="SStopSearch">Stop Search</string>
     <string name="Straininig">Training...</string>
-    <string name="SCanntoPredic">More than one face is needed to predict</string>
+    <string name="SCanntoPredic">Train lebih dari 1 wajah</string>
     <string name="SIdle">Idle</string>
     <string name="SFaceName">Face name:</string>
     <string name="SSearching">Searching</string>
@@ -24,9 +24,9 @@
     <string name="results">Recognized Faces</string>
     <string name="scan">Scan</string>
     <string name="scanning">Scanning</string>
-    <string name="next">Next</string>
-    <string name="please_enter_the_same_name_for_the_same_person_everytime_you_train_that_person">Please enter the same name for the same person everytime you train that person</string>
-    <string name="who_are_you_going_to_train">Who are you going to train?</string>
+    <string name="next">Selanjutnya</string>
+    <string name="please_enter_the_same_name_for_the_same_person_everytime_you_train_that_person">Masukkan nama yang sama jika memindai wajah dari orang yang sama</string>
+    <string name="who_are_you_going_to_train">Siapa namanya?</string>
     <string name="commit_attendance">Commit Attendance</string>
     <string name="give_attendance">Give Attendance</string>
     <string name="mark_attendance">Mark Attendance</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.opencv.cultoftheunicorn.marvel"
+    package="org.opencv.comvis.facerecog"
     android:installLocation="auto"
     android:versionCode="24"
     android:versionName="2.4">
@@ -35,12 +35,12 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:icon="@drawable/lightbulb"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="cultoftheunicorn.marvel.MainActivity"
-            android:label="Marvel">
+            android:name="cultoftheunicorn.jhon.MainActivity"
+            android:label="Face Recognition Project">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,16 +48,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="cultoftheunicorn.marvel.Recognize"
+            android:parentActivityName="cultoftheunicorn.jhon.MainActivity"
+            android:label="Recognition"
+            android:name="cultoftheunicorn.jhon.Recognize"
             android:screenOrientation="landscape" />
         <activity
-            android:name="cultoftheunicorn.marvel.Training"
+            android:parentActivityName="cultoftheunicorn.jhon.MainActivity"
+            android:name="cultoftheunicorn.jhon.Training"
             android:label="Training"
             android:screenOrientation="landscape" />
         <activity
-            android:name="cultoftheunicorn.marvel.NameActivity"
-            android:windowSoftInputMode="adjustNothing" />
-        <activity android:name="cultoftheunicorn.marvel.ReviewResults"
+            android:parentActivityName="cultoftheunicorn.jhon.MainActivity"
+            android:label="Insert Nama"
+            android:name="cultoftheunicorn.jhon.NameActivity" />
+        <activity android:name="cultoftheunicorn.jhon.ReviewResults"
             android:label="Review and Mark"/>
 
         <!--android:screenOrientation="portrait"-->
